@@ -1,7 +1,5 @@
 # [rsschool-cv](https://www.github.com/HebiSunrise/rsschool-cv)
- ----
 # Guzikov Vladislav
----
 ## Contacts:
 * Discord: Vladislav Guzikov#7665
 * E-mail: vladguzikov13@gmail.com
