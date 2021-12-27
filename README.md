@@ -1,1 +1,1 @@
-# [rsschool-cv](https://HebiSunrise.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://HebiSunrise.github.io/rsschool-cv/)
