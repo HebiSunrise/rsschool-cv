@@ -1,5 +1,183 @@
-body {
-  color: #414141;
-  background-color: #EEEEEE;
-  font-size: 18px;
+html {
+  scroll-behavior: smooth; 
 }
+
+body {
+  color: #dddddd;
+  background-color: #450355;
+  font-size: 18px;
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1800px;
+  margin: auto;
+}
+
+.header {
+  background-color: #f8f8f8;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+a:active {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.main{
+  position:relative;
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 25px;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.logo-of-rss{
+  height: 30px;
+  margin-left: 40px;
+ 
+}
+
+.logo-of-gh{
+  height: 50px;
+  margin-right: 40px;
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  height: 80px;
+}
+
+.year{
+  color: #000000;
+  font-size: 30px;
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
+}
+
+.main-info{
+  display: flex;
+  border-bottom-width: 15px; 
+  border-bottom-style: solid; 
+  border-bottom-color: white;
+}
+
+.ava {
+  height: 450px;
+}
+
+h1{
+  font-size: 60px;
+  text-shadow: 3px 0 10px #30012d, 
+               0 3px 10px #30012d, 
+               -3px 0 10px #30012d, 
+               0 -3px 10px #30012d ;
+}
+
+h2{
+  font-size: 35px;
+  color: #46034d;
+  margin-left: 40px;
+  margin-bottom: -20px;
+  text-shadow: 3px 0 10px #ffffff, 
+               0 3px 10px #ffffff, 
+               -3px 0 10px #ffffff, 
+               0 -3px 10px #ffffff;
+
+}
+
+.my-name{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.line{
+  display: flex;
+  border-bottom-width: 10px; 
+  border-bottom-style: solid; 
+  border-bottom-color: white;
+}
+
+.style-of-contacts{
+  list-style: none;
+  font-size: 25px;
+}
+
+.style-of-skills{
+  list-style: square;
+  font-size: 25px;
+  margin-left: 25px; 
+}
+
+.icon-of-cont{
+  height: 18px;
+}
+
+.about-me{
+  font-size: 25px; 
+  max-width: 2000px; 
+  margin: 30px 30px 30px 40px;
+}
+
+.projcw{
+  width: 600px;
+}
+
+.projgh{
+  width: 600px;
+}
+
+.javascript .de1, .javascript .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;color: #000020;}
+.javascript  {font-family:monospace;color: #006; border: 1px solid #d0d0d0; background-color: #f0f0f0;}
+.javascript a:link {color: #000060;}
+.javascript a:hover {background-color: #f0f000;}
+.javascript .imp {font-weight: bold; color: red;}
+.javascript li, .javascript .li1 {font-weight: normal; vertical-align:top;font: normal normal 130% 'Courier New', Courier, monospace; color: #003030;}
+.javascript .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.javascript .li2 {font-weight: bold; vertical-align:top;font-weight: bold; color: #006060;}
+.javascript .kw1 {color: #000066; font-weight: bold;}
+.javascript .kw2 {color: #003366; font-weight: bold;}
+.javascript .kw3 {color: #000066;}
+.javascript .co1 {color: #006600; font-style: italic;}
+.javascript .co2 {color: #009966; font-style: italic;}
+.javascript .coMULTI {color: #006600; font-style: italic;}
+.javascript .es0 {color: #000099; font-weight: bold;}
+.javascript .br0 {color: #009900;}
+.javascript .sy0 {color: #339933;}
+.javascript .st0 {color: #3366CC;}
+.javascript .nu0 {color: #CC0000;}
+.javascript .me1 {color: #660066;}
+.javascript span.xtra { display:block; }
