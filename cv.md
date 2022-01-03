@@ -9,13 +9,13 @@
 In a tangible future, I want to be a game developer.
 
 ## Skills
-* Знание основных принципов ООП;
-* Знание алгоритмизации процессов;
-* Базовые знания JavaScript;
-* Знание языка C# и опыт работы с ним;
-* Знание баз данных и опыт работы с ними (MS SQL Server);
-* Базовые знание HTML и CSS (есть опыт в создании и вёрстке сайтов);
-* Опыт написания технической документации;
+* Knowledge of the basic principles of OOP;
+* Knowledge of process algorithmization;
+* Basic knowledge of JavaScript;
+* Knowledge of the C# language and experience working with it;
+* Knowledge of databases and experience working with them (MS SQL Server);
+* Basic knowledge of HTML and CSS (have experience in creating and layout of websites);
+* Experience in writing technical documentation.
 
 ## Code example:
 ``` JavaScript
