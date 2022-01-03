@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>CV of Guzikov V.I.</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#aboutmyself" class="nav-link">About myself</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#codeexample" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#language " class="nav-link">Language</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <main>
+      <section class="main-info">
+      <img src="assets/png/ava2.png" alt="Photo of Guzikov Vladislav" class="ava">
+        <div class="my-name">
+          <h1>GUZIKOV VLADISLAV</h1>
+          <span style="font-size: 40px">Junior <span style="color: #000000">JS</span> fullstack developer</span>
+        </div>
+      </section>
+      <section id="contacts">
+        <h2 >
+          Contacts:
+        </h2>
+        <ul class="style-of-contacts">
+          <li><img src="assets/png/discord.png" alt="Icon of Discord" class="icon-of-cont"> Discord: Vladislav Guzikov#7665</li>
+          <li><img src="assets/png/email.png" alt="Icon of Gmail" class="icon-of-cont"> G-mail: vladguzikov13@gmail.com</li>
+          <li><img src="assets/png/phone-call.png" alt="Icon of phone" class="icon-of-cont"> Tel: +375256104632</li>
+        </ul>
+      </section>
+
+    <div class="line"></div>
+    <section id="aboutmyself">
+      <h2>About myself</h2>
+      <div class="about-me" >I like to study and learn something new. I like to play sports, 
+        listen to music of different genres and play video games. I love good friendly companies and the fun they give. 
+        I lead an active and healthy lifestyle. I like to work creatively and see the results of my work.
+        <br> Since childhood, I had a predisposition to work with computers. I like to change something in the PC, 
+        build and configure something useful for me. Now I can create, configure and help others solve problems. 
+        That's the beauty of the developer.
+      </div>
+    </section>
+
+    <div class="line"></div>
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul class="style-of-skills">
+        <li>Knowledge of the basic principles of OOP;</li>
+        <li>Knowledge of process algorithmization;</li>
+        <li> Basic knowledge of JavaScript;</li>
+        <li>Knowledge of the C# language and experience working with it;</li>
+        <li>Knowledge of databases and experience working with them (MS SQL Server);</li>
+        <li>Basic knowledge of HTML and CSS (have experience in creating and layout of websites);</li>
+        <li>Experience in writing technical documentation.</li>
+       </ul>
+    </section>
+
+    <div class="line"></div>
+
+    <section id="codeexample">
+     <h2>Code example</h2>
+     <div style="margin: 30px 30px 0 30px; font-size: 15px;">
+      <pre class="javascript" style="font-family:monospace;">    <span style="color: #000066; font-weight: bold;">function</span> bitsWar<span style="color: #009900;">&#40;</span>numbers<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+        let ch <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span>
+        let nch <span style="color: #339933;">=</span> <span style="color: #CC0000;">0</span>
+        numbers.<span style="color: #660066;">forEach</span> <span style="color: #009900;">&#40;</span>elem <span style="color: #339933;">=&gt;</span> <span style="color: #009900;">&#123;</span>
+            <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>elem <span style="color: #339933;">!=</span> <span style="color: #CC0000;">0</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+                <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>elem <span style="color: #339933;">%</span> <span style="color: #CC0000;">2</span> <span style="color: #339933;">==</span> <span style="color: #CC0000;">0</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+                    ch<span style="color: #339933;">+=</span>elem.<span style="color: #660066;">toString</span><span style="color: #009900;">&#40;</span><span style="color: #CC0000;">2</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">match</span><span style="color: #009900;">&#40;</span><span style="color: #009966; font-style: italic;">/1/g</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">length</span><span style="color: #339933;">*</span><span style="">Math</span>.<span style="color: #660066;">sign</span><span style="color: #009900;">&#40;</span>elem<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #009900;">&#125;</span>
+                <span style="color: #000066; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+                nch<span style="color: #339933;">+=</span>elem.<span style="color: #660066;">toString</span><span style="color: #009900;">&#40;</span><span style="color: #CC0000;">2</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">match</span><span style="color: #009900;">&#40;</span><span style="color: #009966; font-style: italic;">/1/g</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">length</span><span style="color: #339933;">*</span><span style="">Math</span>.<span style="color: #660066;">sign</span><span style="color: #009900;">&#40;</span>elem<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #009900;">&#125;</span>
+            <span style="color: #009900;">&#125;</span>
+        <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span>
+        <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>ch <span style="color: #339933;">&lt;</span> nch<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+            <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #3366CC;">&quot;odds win&quot;</span>
+        <span style="color: #009900;">&#125;</span>
+        <span style="color: #000066; font-weight: bold;">else</span> <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>ch <span style="color: #339933;">&gt;</span> nch<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+            <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #3366CC;">&quot;evens win&quot;</span>
+        <span style="color: #009900;">&#125;</span>
+        <span style="color: #000066; font-weight: bold;">else</span> <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #3366CC;">&quot;tie&quot;</span>
+        <span style="color: #009900;">&#125;</span></pre>
+      </div>
+    </section>
+
+    <div class="line"></div>
+    <section id="education"></section>
+      <h2>Education:</h2>
+      <div style="margin: 40px 30px 20px 30px">
+        <span style="font-size: 25px;"> 2015 - 2019 | GOMEL STATE AGRARIAN-ECONOMIC COLLEGE (software technician)</span><br/>
+        <span style="font-size: 25px;"> 2021 - 2025 | FRANCISK SKORINA GOMEL STATE UNIVERSITY (information technology engineer) not finished yet</span>
+      </div>
+    </section>
+
+    <div class="line"></div>
+    <section id="language">
+      <h2>Language:</h2>
+      <div style="margin: 40px 30px 20px 30px">
+        <span style="font-size: 25px;">English level - A2</span>
+      </div>
+    </section>
+
+    <div class="line"></div>
+    <h2 id="projects">Projects:</h2>
+    <section style="margin: 40px 30px 20px 30px">
+      <div>
+        <table align="center">
+          <tr>
+            <th><span style="font-size: 25px;">CodeWars</span></th>
+            <th><span style="font-size: 25px;">GitHub</span></th>
+          </tr>
+          <tr>
+            <th><a href="https://www.codewars.com/users/HebiSunrise"><img src="assets/png/codewars.png" alt="My CodeWars" class="projcw"></a></th>
+            <th><a href="https://github.com/HebiSunrise"><img src="assets/png/github.png" alt="My GitHub" class="projgh"></a></th>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    </main>
+    <footer class="footer">
+      <a href="https://rs.school/js/"><img src="assets/png/logo-rsschool3.png" alt="Logo RSS" class="logo-of-rss"></a>
+      <span class="year">2022</span>
+      <a href="https://github.com/HebiSunrise"><img src="assets/png/gh.png" alt="Logo GH" class="logo-of-gh"></a>
+    </footer>
+  </body>
+</html>
