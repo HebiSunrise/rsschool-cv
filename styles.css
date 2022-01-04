@@ -146,6 +146,10 @@ h2{
   height: 18px;
 }
 
+.tablepr{
+text-align: center;
+}
+
 .about-me{
   font-size: 25px; 
   max-width: 2000px; 
