@@ -147,7 +147,13 @@ h2{
 }
 
 .tablepr{
-text-align: center;
+  text-align: center;
+  margin-left: -35px;
+}
+
+.tablepr div{
+  margin-top: 20px;
+  width: 100%;
 }
 
 .about-me{
